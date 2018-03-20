@@ -52,7 +52,6 @@ plt.scatter(X_test, y_test, color='red')
 #this will plot the real values in red 
 plt.plot(X_train, regression.predict(X_train), color= 'blue' )
 #this doesnot change as the value is based on traning set 
-#this will plot the training set result 
 plt.title('Salary vs Experience (Test)')
 plt.xlabel('experience')
 plt.ylabel('Number of years')
