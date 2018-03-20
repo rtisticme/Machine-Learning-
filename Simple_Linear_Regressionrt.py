@@ -45,7 +45,7 @@ plt.xlabel('experience')
 plt.ylabel('Number of years')
 plt.show()
 #red line show the real value 
-#the line show the predicted value 
+#the blue line show the predicted value 
 
 #Visualising the Test set results by plotting
 plt.scatter(X_test, y_test, color='red')
@@ -58,4 +58,4 @@ plt.xlabel('experience')
 plt.ylabel('Number of years')
 plt.show()
 #red line show the real value 
-#the line show the predicted value 
+#the blue line show the predicted value 
