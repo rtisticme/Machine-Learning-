@@ -105,3 +105,6 @@ X_test = sc_X.transform(X_test)
 #for test set we donot need to fit as it is already 
 #fitted on the training set 
 
+#we can remove missing data code and encoding code as it is 
+#not essential and is used for only special cases 
+#freature scaling is also optional based on the machine learning model 
